@@ -1,3 +1,14 @@
+import React from 'react'; // Aggiungi questa riga!
+import MenuPage from './MenuPage.tsx';
+
+export default function App() {
+  return (
+    <div>
+      <MenuPage />
+    </div>
+  );
+}
+
 import AboutPage from './AboutPage';
 import MenuPage from './MenuPage';
 import ContactPage from './ContactPage';
