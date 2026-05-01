@@ -1,6 +1,6 @@
-import AboutPage from './AboutPage';
-import MenuPage from './MenuPage';
-import ContactPage from './ContactPage';
+import AboutPage from './AboutPage.tsx';
+import MenuPage from './MenuPage.tsx';
+import ContactPage from './ContactPage.tsx';
 
 export default function App() {
   return (
@@ -9,7 +9,8 @@ export default function App() {
         <h1>Ouhlala Materrasini</h1>
       </header>
       <main>
-        <MenuPage /> {/* Questa sarà la pagina visualizzata all'inizio */}
+        {/* Visualizziamo MenuPage come pagina predefinita */}
+        <MenuPage /> 
       </main>
     </div>
   );
