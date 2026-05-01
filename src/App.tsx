@@ -1,16 +1,16 @@
-import AboutPage from './AboutPage.tsx';
-import MenuPage from './MenuPage.tsx';
-import ContactPage from './ContactPage.tsx';
+import AboutPage from './AboutPage';
+import MenuPage from './MenuPage';
+import ContactPage from './ContactPage';
 
 export default function App() {
   return (
-    <div>
-      <header style={{ padding: '20px', background: '#f0f0f0' }}>
-        <h1>Ouhlala Materrasini</h1>
+    <div style={{ fontFamily: 'sans-serif' }}>
+      <header style={{ padding: '20px', background: '#f8f9fa', borderBottom: '1px solid #dee2e6' }}>
+        <h1 style={{ margin: 0, color: '#333' }}>Ouhlala Materrasini</h1>
       </header>
-      <main>
-        {/* Visualizziamo MenuPage come pagina predefinita */}
-        <MenuPage /> 
+      <main style={{ padding: '20px' }}>
+        {/* Visualizziamo la MenuPage come contenuto principale */}
+        <MenuPage />
       </main>
     </div>
   );
